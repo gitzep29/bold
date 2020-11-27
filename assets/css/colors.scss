@@ -1,0 +1,25 @@
+/*Color palette*/
+$pink: #f7e1dc;
+$blue: #152746;
+$orange: #e17c60;
+$grey: #f1f1f2;
+$white: #ffff;
+$strong-grey: #818284;
+
+$color-list:  $pink,  $blue, $orange,  $grey, $white;
+$color-names: 'pink', 'blue', 'orange', 'grey', 'white';
+
+
+@each $current-color in $color-list {
+  $i: index($color-list, $current-color);
+  //creates color classes for text
+  .#{nth($color-names, $i)}{
+    color: $current-color !important;
+  }
+  //creates color background classes
+  .#{nth($color-names, $i)}-bg{
+    background-color: $current-color !important;
+  }
+}
+
+
