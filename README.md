@@ -1,0 +1,2 @@
+# bold
+site bold.gt
