@@ -1,13 +1,14 @@
 /*Color palette*/
-$pink: #f7e1dc;
-$blue: #152746;
-$orange: #e17c60;
-$grey: #f1f1f2;
-$white: #ffff;
-$strong-grey: #818284;
 
-$color-list:  $pink,  $blue, $orange,  $grey, $white;
-$color-names: 'pink', 'blue', 'orange', 'grey', 'white';
+$white: #ffff;
+$gray-medium: #58595b;
+$gray-semi-dark: #414042;
+$gray-dark: #221f20;
+$gray: #333132;
+$red: #d83832;
+
+$color-list: $white, $gray-medium, $gray-semi-dark, $gray-dark, $gray, $red;
+$color-names: 'white', 'gray-medium', 'gray-semi-dark','gray-dark', 'gray', 'red';
 
 
 @each $current-color in $color-list {

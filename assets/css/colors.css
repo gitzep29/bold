@@ -1,1 +1,49 @@
+/*Color palette*/
+.white {
+  color: #ffff !important;
+}
+
+.white-bg {
+  background-color: #ffff !important;
+}
+
+.gray-medium {
+  color: #58595b !important;
+}
+
+.gray-medium-bg {
+  background-color: #58595b !important;
+}
+
+.gray-semi-dark {
+  color: #414042 !important;
+}
+
+.gray-semi-dark-bg {
+  background-color: #414042 !important;
+}
+
+.gray-dark {
+  color: #221f20 !important;
+}
+
+.gray-dark-bg {
+  background-color: #221f20 !important;
+}
+
+.gray {
+  color: #333132 !important;
+}
+
+.gray-bg {
+  background-color: #333132 !important;
+}
+
+.red {
+  color: #d83832 !important;
+}
+
+.red-bg {
+  background-color: #d83832 !important;
+}
 /*# sourceMappingURL=colors.css.map */
